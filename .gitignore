@@ -1,1 +1,4 @@
 .idea
+.pytest_cache
+__pycache__/test_functions.cpython-39-pytest-6.2.5.pyc
+__pycache__/main.cpython-39.pyc
