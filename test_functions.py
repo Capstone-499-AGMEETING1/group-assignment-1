@@ -8,4 +8,4 @@ def test_calculate_mean():
 
 def test_calculate_median():
     assert calculate_median([1, 2, 3, 4, 5]) == 3
-    assert calculate_median({4, 2, 7, 2, 6, 2}) == 3
+    assert calculate_median({4, 3, 7, 2, 6, 5}) == 4.5
