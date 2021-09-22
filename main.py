@@ -4,7 +4,7 @@ def calculate_mean(numbers):
 
 
 def calculate_median(numbers):
-    numbers.sorted()
+    numbers = sorted(numbers)
     if len(numbers) % 2 != 0:
         median = numbers[round(len(numbers) / 2)]
     else:
