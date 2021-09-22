@@ -20,6 +20,14 @@
 
 - This function serves the purpose of calculating the mode when given a list of numbers.
 - To use:
-    - Call the function 'calculate_mode([1,2,2,3,3,3,4,5])', the function will then return the correct median of the
+    - Call the function 'calculate_mode([1,2,2,3,3,3,4,5])', the function will then return the correct mode of the
       numbers in the list.
     - In this case, the returned mode is '3'.
+
+## Calculate Sum Function
+
+- This function serves the purpose of calculating the sum when given a list of numbers.
+- To use:
+    - Call the function `calculate_sum([1, 2, 3, 4, 5])`, the function will then return the correct sum of the
+      numbers in the list.
+    - In this case, the returned sum is `15`.
