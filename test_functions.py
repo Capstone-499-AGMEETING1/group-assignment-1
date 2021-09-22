@@ -1,4 +1,4 @@
-from main import calculate_mean, calculate_median, calculate_mode
+from main import calculate_mean, calculate_median, calculate_mode, calculate_sum
 
 
 def test_calculate_mean():
