@@ -8,5 +8,5 @@ def calculate_median(numbers):
     if len(numbers) % 2 != 0:
         median = numbers[round(len(numbers) / 2)]
     else:
-        median = ((len(numbers) / 2) + (len(numbers) / 2 + 1)) / 2
+        median = ((numbers[int((len(numbers) / 2)-1)] + numbers[int(len(numbers)/2)]) / 2)
     return median
