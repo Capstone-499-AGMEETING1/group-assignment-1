@@ -1,4 +1,4 @@
-from main import calculate_mean, calculate_median, calculate_mode
+from main import calculate_mean, calculate_median, calculate_mode, calculate_sum
 
 
 def test_calculate_mean():
@@ -14,3 +14,10 @@ def test_calculate_median():
 def test_calculate_mode():
     assert calculate_mode([1, 2, 3, 4, 4, 5]) == [4]
     assert calculate_mode([1, 2, 2, 3, 3, 4, 5]) == [2, 3]
+
+    
+def test_calculate_sum():
+    assert calculate_sum([1, 2, 3, 4, 5]) == 15
+    assert calculate_sum([8, 2, 5, 27, 62, 1]) == 105 
+
+    

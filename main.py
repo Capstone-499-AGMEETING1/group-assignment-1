@@ -20,3 +20,9 @@ def calculate_median(numbers):
 def calculate_mode(numbers):
     c = Counter(numbers)
     return [k for k, v in c.items() if v == c.most_common(1)[0][1]]
+
+
+# Function to return the sum of a list of numbers.
+def calculate_sum(numbers):
+    return sum(numbers)
+
